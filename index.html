@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="app">
-        <div class="container">
+        <div class="container" tabindex="-1" @keyup.left="backward()" @keyup.right="forward()">
             <div class="left-arrow-container" @click="backward()">
                 <i class="fa fa-chevron-left" aria-hidden="true"></i>
             </div>

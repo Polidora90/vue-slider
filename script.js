@@ -26,5 +26,8 @@ const app = new Vue({
                 this.currentIndex = this.images.length-1;
             }
         },
+    },
+    mounted() {
+        document.querySelector(".container").focus();
     }
 })
