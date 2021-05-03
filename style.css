@@ -13,6 +13,11 @@
     margin-top: 50px;
 }
 
+.container:focus,
+.container:active {
+    outline: none;
+}
+
 .img-block {
     width: 500px;
     height: 350px;
